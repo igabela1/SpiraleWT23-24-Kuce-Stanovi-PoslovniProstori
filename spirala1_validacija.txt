@@ -1,0 +1,27 @@
+Koristila sam The W3C Markup Validation Service
+
+U nekretnine.html imala sam  6 errora i 6 warning-a 
+-Error: Duplicate ID pp.
+-Error: Duplicate ID pp.
+-Warning: The first occurrence of ID pp was here.
+-Warning: The first occurrence of ID pp was here.
+-Error: Duplicate ID kuca.
+-Error: Duplicate ID kuca.
+-Warning: The first occurrence of ID kuca was here.
+-Warning: The first occurrence of ID kuca was here.
+-Error: Duplicate ID stan.
+-Error: Duplicate ID stan.
+-Warning: The first occurrence of ID stan was here.
+-Warning: The first occurrence of ID stan was here.
+
+U detalji.html imala sam 1 Warning: Consider adding a lang attribute to the html start tag to declare the language of this document.
+
+U profil.html imala sam 2 errora i 2 warninga
+-Error: Duplicate ID profil.
+-Error: Duplicate ID profil.
+-Warning: The first occurrence of ID profil was here.
+-Warning: The first occurrence of ID profil was here.
+
+U prijava.html nije bilo errora i warning-a
+
+U meni.html sve je bilo uredu

@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf1d3;
+}
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff9900;
+}
+
+#profil {
+  
+    align-items: left;
+    width: 50%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+   
+}
+
+
+
+.input-grupa {
+  
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin-left: 10px;
+}
+
+form {
+    text-align: left;
+}
+
+input {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+label, input {
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+/*Na ovaj nacin sam ispravila za ekrane vece od 500px da mi slika bude s lijeve strane*/
+@media (min-width: 501px) {
+    #profil {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #profil img {
+        margin-right: 20px;
+    }
+
+    form {
+        width: 50%; 
+    }
+}

@@ -1,0 +1,345 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf1d3;
+}
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff9900;
+}
+
+
+<!--Popravila za ove nekretnine da su mi jedna pored druge i da su mi oko njih boje koje trebaju biti-->
+#kuca {
+    background-color: powderblue; 
+    display: inline-table; 
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+   
+}
+#stan1 {
+    background-color: white; 
+    display: inline-table; 
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+}
+#stan2 {
+    background-color: white; 
+    display: inline-table; 
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+}
+#stan3 {
+    background-color: white; 
+    display: inline-table; 
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+}
+#pp1 {
+    background-color: green; 
+    display: inline-table; 
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+}
+#pp2 {
+    background-color: green; 
+    display: inline-table; 
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+}
+#pp3 {
+    background-color: green; 
+    display: inline-table; 
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+}
+
+
+
+.nekretnina {
+    background-color: powderblue; 
+    padding: 10px; 
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.nekretnina img {
+    width: 100%;
+    height: auto;
+}
+
+.nekretnina-info {
+    padding: 10px;
+    text-align: left;
+}
+
+#stan1 .nekretnina-info {
+    
+    grid-row: 1;
+    background-color: white;
+}
+#stan2 .nekretnina-info {
+    
+    grid-row: 1;
+    background-color: white;
+}
+#stan3 .nekretnina-info {
+    
+    grid-row: 1;
+    background-color: white;
+}
+
+
+#kuca .nekretnina-info {
+    
+    grid-row: 2;
+    background-color: powderblue;
+    
+}
+
+#pp1 .nekretnina-info {
+   
+    background-color: green; 
+    grid-row: 3;
+}
+#pp2 .nekretnina-info {
+   
+    background-color: green; 
+    grid-row: 3;
+}
+#pp3 .nekretnina-info {
+   
+    background-color: green; 
+    grid-row: 3;
+}
+
+
+.grid-container {
+   
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#stan .nekretnina{
+    background-color: white;
+}
+
+#pp .nekretnina{
+    background-color: green;
+}
+
+#kuca .nekretnina{
+    background-color: powderblue;
+}
+
+.cijena {
+    text-align: right;
+    font-weight: bold;
+    color: black;
+}
+
+.detalji-btn {
+    display: block;
+    margin: 0 auto; 
+}
+
+#filteri-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+  
+  
+}
+#filter-nekretnine {
+    margin-top: 100px; /* Adjust the value as needed */
+}
+#filteri-container input,
+#filteri-container button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#pretragaBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#pretragaBtn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Prilagođeno za povećani razmak između filtera i sadržaja ispod */
+#stan {
+    margin-top: 30px; /* Prilagodite razmak prema potrebi */
+}
+
+
+.properties-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; 
+    padding: 20px; 
+    margin-top: 70px;
+}
+
+.property-item {
+    background-color: white; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    overflow: hidden; 
+}
+
+.property-item img {
+    width: 100%; 
+    height: auto;
+    max-height: 200px; 
+}
+
+.property-info {
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px; 
+}
+
+.kvadratura, .cijena {
+    margin: 0; 
+}
+
+.cijena {
+    font-weight: bold;
+}
+
+.details-button {
+    width: 20%;
+    padding: 10px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    position: center;
+    
+}
+
+
+#stanovi-container .property-item {
+    background-color: white;
+}
+
+#kuce-container .property-item {
+    background-color: powderblue;
+}
+
+#poslovni-prostori-container .property-item {
+    background-color: green;
+}
+
+#filter-nekretnine{
+    margin-top: 100px;
+}
+
+.nekretnina {
+    background-color: white; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    overflow: hidden; 
+}
+
+.nekretnina p{
+    font-size: 10px;
+}
+
+.nekretnina img {
+    width: 100%; 
+    height: auto;
+    max-height: 200px; 
+}
+
+.details-button {
+    width: 20%;
+    padding: 10px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    position: center;
+    
+}
+
+#nekretnine {
+    margin: 5%;
+    padding: 1%;
+}
+
+
+/*Responzivnost*/
+
+@media (max-width: 1080px) {
+    .grid-container {
+        grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+@media (max-width: 400px) {
+    .grid-container {
+        grid-template-rows: 1fr;
+    }
+}
+
+
+
+
+

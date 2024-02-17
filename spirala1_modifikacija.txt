@@ -1,0 +1,17 @@
+Ovim kodom ispod sam postigla kada mi je ekran veci od 500px da mi se slika profila pomjeri sa lijeve strane a na desnoj strani budu polja za unos podataka. Stavila sam da mi je min-width: 501px bas zbog toga da ako mi je veci od 500px odmah mi pomjeri elemente onako kako je zadano u postavci.
+@media (min-width: 501px) {
+    #profil {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #profil img {
+        margin-right: 20px;
+    }
+
+    form {
+        width: 50%; 
+    }
+}

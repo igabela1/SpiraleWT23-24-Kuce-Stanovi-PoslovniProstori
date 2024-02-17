@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalji Nekretnine</title>
+    <link rel="stylesheet" type="text/css" href="../css/detalji.css">
+    <link rel="stylesheet" type="text/css" href="../css/meni.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <ul id="meni-lista">
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="nekretnine.html">Nekretnine</a></li>
+            <li><a href="detalji.html">Detalji</a></li>
+            <li><a href="prijava.html">Prijava</a></li>
+        </ul>
+    </div>
+    <h3>OSNOVNO</h3>
+    <div id="osnovno">
+        
+        <img  id="slika" src="../slike/detalj1.jpg" alt="Stan">
+    
+   
+        <div id="detalji">
+           
+            <div>
+                <p><b>Naziv:</b> Useljiv stan Sarajevo</p>
+                <p><b>Kvadratura:</b> 58 m²</p>
+                <p><b>Cijena:</b> 232000 KM</p>
+            </div>
+        </div>
+    </div>
+            <h3>DETALJI</h3>
+           
+
+
+        <table id="detalji1">
+            <tr>
+                <td><b>Tip grijanja:</b>plin</td>
+                <td><b>Godina izgradnje:</b>2019</td>
+            </tr>
+
+            <tr>
+                <td><b>Lokacija:</b>Novo Sarajevo</td>
+                <td><b>Datum objave oglasa:</b>01.10.2023.</td>
+            </tr>
+            
+            <tr>
+                
+                <td colspan="2"><b>Opis:</b> Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 
+                    fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</td>
+            </tr>
+
+        </table>
+
+    <div id="upiti">
+        <h3>UPITI</h3>
+        <ul class="upiti-lista">
+            <li>
+                <h4 class="username">username1:</h4>
+                <span>Ima li garažu uz nekretninu?</span>
+            </li>
+            <li>
+                <h4 class="username">username2:</h4>
+                <span>Koliko je udaljena od centra grada?</span>
+        </li>
+            <li>
+                <h4 class="username">username3:</h4>
+                <span>Da li u blizini ima bolnicu, postu, market, apoteku?</span>
+        </li>
+        </ul>
+    </div>
+    <div id="dodajUpit">
+        <input type="text" id="tekst" name="tekst" required>
+        <button id="potvrda" onclick="posalji()">Potvrdi</button>
+    </div>
+    <script type="text/javascript" src="../scripts/PoziviAjax.js"></script>
+    <script type="text/javascript" src="../scripts/detalji.js"></script>
+    <script type="text/javascript" src="../scripts/spojiUpite.js"></script>
+
+</body>
+
+</html>

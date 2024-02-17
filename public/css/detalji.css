@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf1d3;
+    
+}
+#dodajUpit{
+    display: none;
+    width: 50%;
+    margin: 20px;
+    padding: 1%;
+}
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff9900;
+}
+
+
+
+#detalji1{
+    width: 50%;
+    margin-left: 20px;
+}
+
+#detalji1 tr{
+    height: 60px;
+    margin-left: 20px;
+}
+
+
+#opis {
+    flex-basis: 100%; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.upiti-lista {
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.upiti-lista li {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 0%;
+}
+
+.upiti-lista li .username {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.upiti-lista li span {
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+#osnovno {
+    margin-bottom: 20px;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#slika{
+    
+    margin-top: 20px;
+}
+h3{
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+#odjava {
+    color: red;
+}
+.forma-prijava {
+    margin-top: 60px; 
+}

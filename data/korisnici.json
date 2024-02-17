@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "ime": "Neko",
+    "prezime": "Nekic",
+    "username": "username1",
+    "password": "hashPassworda1"
+  },
+  {
+    "id": 2,
+    "ime": "Neko2",
+    "prezime": "Nekic2",
+    "username": "username2",
+    "password": "hashPassworda2"
+  },
+  {
+    "username": "Ilhana",
+    "password": "$2b$10$.QcnFY7LESGTn6RaTUZQne93rw3BC3/sn3a9399CFp1u0rg.nBIom",
+    "ime": "Ilhana",
+    "prezime": "Gabela"
+  },
+  {
+    "id": 4,
+    "username": "Ilhana1",
+    "password": "$2b$10$WfYy9pbUa2sDqdOhp5.o7.rA19fCY/hmBmG9rUtKVuNSy/.cArtSG",
+    "ime": "Jana",
+    "prezime": "Gabela"
+  }
+]

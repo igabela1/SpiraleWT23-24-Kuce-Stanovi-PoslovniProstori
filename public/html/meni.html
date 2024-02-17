@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meni</title>
+    <link rel="stylesheet" type="text/css" href="../css/meni.css">
+ 
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="nekretnine.html">Nekretnine</a></li>
+            <li><a href="detalji.html">Detalji</a></li>
+            <li><a href="prijava.html">Prijava</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="../scripts/PoziviAjax.js"></script>
+    <!--<script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Dohvati podatke o prijavljenom korisniku
+            PoziviAjax.getKorisnik(function (error, data) {
+                var meniLista = document.getElementById("meni-lista");
+
+                if (!error && data && data.username) {
+                    // Ako je korisnik prijavljen, prikazuje "Odjava" i druge opcije
+                    meniLista.innerHTML = '<li><a href="#" id="odjava">Odjava</a></li>' +
+                        '<li><a href="profil.html">Profil</a></li>' +
+                        '<li><a href="nekretnine.html">Nekretnine</a></li>' +
+                        '<li><a href="detalji.html">Detalji</a></li>';
+
+                    // Mijenja ponašanje forme za prijavu
+                    var formaPrijava = document.getElementById("forma-prijava");
+                    formaPrijava.action = "odjava.php"; // Postavite stvarnu putanju za odjavu
+                } else {
+                    // Ako korisnik nije prijavljen, prikazuje "Prijava" i druge opcije
+                    meniLista.innerHTML = '<li><a href="nekretnine.html">Nekretnine</a></li>' +
+                        '<li><a href="detalji.html">Detalji</a></li>' +
+                        '<li><a href="prijava.html">Prijava</a></li>';
+                }
+            });
+        });
+    </script>-->
+</body>
+
+</html>

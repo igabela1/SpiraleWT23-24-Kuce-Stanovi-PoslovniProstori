@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nekretnine</title>
+    <link rel="stylesheet" type="text/css" href="../css/nekretnine.css">
+    <link rel="stylesheet" type="text/css" href="../css/meni.css">
+    
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <ul id="meni-lista">
+            <li><a href="nekretnine.html">Nekretnine</a></li>
+            <li><a href="detalji.html">Detalji</a></li>
+            <li><a href="prijava.html">Prijava</a></li>
+        </ul>
+    </div>
+
+    <div id="filteri-container">
+        <input type="number" id="min-cijena" placeholder="Min cijena" />
+        <input type="number" id="max-cijena" placeholder="Max cijena" />
+        <input type="number" id="min-kvadratura" placeholder="Min kvadratura" />
+        <input type="number" id="max-kvadratura" placeholder="Max kvadratura" />
+        <button id="pretragaBtn">Pretraži</button>
+    </div>
+
+    <div id="filter-nekretnine">
+
+    </div>
+    
+    <script type="text/javascript" src="../scripts/MarketingAjax.js"></script>
+    <script type="text/javascript" src="../scripts/PoziviAjax.js"></script>
+    <script type="text/javascript" src="../scripts/nekretnine.js"></script>
+</body>
+</html>
